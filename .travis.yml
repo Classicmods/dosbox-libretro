@@ -4,7 +4,7 @@ language: minimal
 
 env:
   global:
-    - IMAGE=registry.gitlab.com/bleemsync-dev/docker-autodevops-buildenvs/mmc-crosscompiler-docker-image:latest_internal
+    - IMAGE=registry.gitlab.com/modmyclassic/docker-autodevops-buildenvs/mmc-crosscompiler-docker-image:latest_internal
     - TARGETBUILD=dosbox_libretro
   matrix:
     - TARGET=nesc CLOUD_DIR=NESC
